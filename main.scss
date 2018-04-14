@@ -1,0 +1,9 @@
+$primaryColor:#ff0000;
+
+body{
+    color: green;
+    background-color: $primaryColor;
+    .test{
+        color: white;
+    }
+}

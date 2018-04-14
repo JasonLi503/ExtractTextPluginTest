@@ -1,0 +1,41 @@
+{
+  "name": "newwebpack",
+  "version": "1.0.0",
+  "description": "new webpack project",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --env.dev",
+    "dev": "webpack-dev-server --env.dev --hot",
+    "debug": "node-nightly --inspect --debug-brk node_modules/.bin/webpack",
+    "start": "http-server dist",
+    "test": "karma start"
+  },
+  "author": "jason li",
+  "license": "ISC",
+  "Depandencies": {
+    "lodash": "4.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-__coverage__": "11.0.0",
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-es2016": "6.11.3",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-2": "6.13.0",
+    "css-loader": "0.23.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.3",
+    "html-loader": "^0.5.1",
+    "http-server": "0.9.0",
+    "node-nightly": "^1.7.2",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "2.3.0",
+    "rimraf": "2.5.4",
+    "sass-loader": "^4.1.1",
+    "style-loader": "0.13.1",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-config-utils": "2.0.0",
+    "webpack-dev-server": "2.1.0-beta.0",
+    "webpack-validator": "2.2.7"
+  }
+}
